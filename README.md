@@ -21,45 +21,37 @@
 
 <br /><br />
 
-> **Problem Statement ID:** 25031  
-> **Team Name:** Barre Chords  
-> **Domain:** Clean & Green Technology
+**Problem Statement ID:** 25031 | **Team:** Barre Chords | **Domain:** Smart Automation
 
 </div>
 
 ---
 
-## 📖 Executive Summary
+## 💡 The Problem & Solution
+**60% of civic issues go unreported** simply because the process is too hard, and **75% of citizens** are unsure which department to contact.
 
-**Barre Chords** is a comprehensive civic engagement platform designed to bridge the gap between **Citizens**, **Municipal Departments**, and **Local Contractors**. 
+**Barre Chords** solves this by creating a unified ecosystem where **Citizens**, **Municipal Staff**, and **Contractors** work together. We use **Gemini AI** to automatically sort complaints and **Gamification** (Tokens = Free Plants) to encourage people to keep their city clean.
 
-Currently, **60% of civic issues go unreported** due to complex procedures. We leverage **AI and Crowdsourcing** to create a unified ecosystem where citizens report issues, AI automatically routes them to the correct department, and contractors can bid to resolve them efficiently. By integrating a unique reward system—**Tokens for Plants**—we foster environmental responsibility while solving urban problems.
+### 🔄 How It Works (The Workflow)
 
----
-
-## 📺 Project Showcase
-
-<div align="center">
-  <h3>🎥 Watch the System in Action</h3>
-  <a href="https://www.youtube.com/embed/RZbovuI7gFg?si=RxaPz6uDyhgm6j30">
-    <img src="https://img.youtube.com/vi/RZbovuI7gFg/0.jpg" width="80%" alt="Watch the Demo">
-  </a>
-</div>
+| **Step 1: SNAP 📸** | **Step 2: AI SORT 🤖** | **Step 3: RESOLVE 🚜** | **Step 4: REWARD 🌱** |
+| :--- | :--- | :--- | :--- |
+| **Citizen** takes a photo of a pothole or garbage. GPS is auto-tagged. | **Gemini AI** analyzes the image, assigns priority (High/Med/Low), and routes it to the right department. | **Contractors** bid on the job via the app. Municipal staff approve and track progress. | **Citizen** gets notified of the fix and earns tokens redeemable for free plants. |
 
 ---
 
-## 🏗️ The Ecosystem: Three Pillars
+## 📱 The Ecosystem: 3-Pillar Approach
 
-Our solution addresses the needs of three distinct user groups:
+Our platform connects three distinct user groups to ensure efficiency and accountability.
 
 ### 1. 👥 For Citizens (Reporting & Rewards)
 * **📸 Easy Reporting:** Effortless issue submission with photo capture, precise GPS location tagging, and quick descriptions.
-* **📍 Transparent Tracking:** Real-time updates and notifications at every stage, from submission to resolution.
-* **🌱 Civic Rewards (Green Initiative):** Users earn tokens for reporting issues. These tokens are redeemable for **free plants** from government nurseries, fostering environmental impact and sustained engagement.
+* **📍 Transparent Tracking:** Real-time updates (Reported → Assigned → Resolved) so users know their voice is heard.
+* **🌱 Civic Rewards (Green Initiative):** Users earn tokens for reporting issues. These tokens are redeemable for **free plants** from government nurseries, fostering environmental impact.
 
 ### 2. 🏛️ For Municipal Departments (AI Automation)
-* **🤖 AI Allocation:** Uses **Gemini API** to detect the issue type (e.g., Pothole, Garbage) and automatically route it to the relevant department (Public Works, Sanitation).
-* **🔥 Priority Tagging:** Reports are instantly tagged as **High, Medium, or Low** priority so urgency is recognized immediately.
+* **🤖 AI Dept Allocation:** Uses **Gemini API** to detect issue types (e.g., Sanitation, Public Works) and auto-routes them, removing manual sorting.
+* **🔥 Priority Tagging:** Reports are instantly tagged as **High, Medium, or Low** priority based on urgency.
 * **📊 Data-Driven Governance:** A centralized dashboard to monitor open tickets and optimize resource allocation.
 
 ### 3. 👷 For Contractors (Economic Growth)
@@ -69,70 +61,79 @@ Our solution addresses the needs of three distinct user groups:
 
 ---
 
-## 🛠️ Technical Architecture
+## ⚡ Tech Stack & Architecture
 
-We utilize a modern, cloud-native tech stack to ensure scalability and performance.
+We built a scalable, cloud-native solution designed for high availability.
 
-| Component | Technology | Description |
+| Component | Tech | Purpose |
 | :--- | :--- | :--- |
-| **Mobile App** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Cross-platform app for Citizens & Contractors. |
-| **Web Dashboard** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Admin interface for Municipal Staff. |
-| **Backend API** | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Custom API handling data flow and integrations. |
-| **Database** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | **PostgreSQL** cloud-hosted database & Auth. |
-| **AI Integration** | ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white) | Image analysis and automatic priority sorting. |
-| **Deployment** | ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) | High-speed content delivery for the web dashboard. |
-
-### 🔄 Data Flow
-1.  **Input:** User uploads image via App (Dart).
-2.  **Processing:** Gemini API analyzes image -> Identifies Category -> Assigns Priority.
-3.  **Storage:** Data stored in Supabase (PostgreSQL).
-4.  **Action:** Municipal Dashboard updates -> Contractor gets notified via App.
+| **📱 App** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Cross-platform mobile app for Citizens & Contractors. |
+| **💻 Web** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Admin Dashboard for Municipal Authorities. |
+| **🧠 AI** | ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white) | Intelligent routing & priority analysis. |
+| **🗄️ Backend** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | PostgreSQL Database & Auth. |
+| **☁️ Deploy** | ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) | High-speed content delivery. |
 
 ---
 
-## 📊 Market Viability & Business Model
+## 💰 Business Viability & Market Size
 
-### Market Size (India)
-Our solution targets the rapidly growing Smart City sector.
+We have analyzed the market potential and sustainability of this solution.
 
-| Market Segment | Value | Description |
-| :--- | :--- | :--- |
-| **TAM** (Total Addressable) | **₹140 Cr** | Total Smart City technology sector. |
-| **SAM** (Serviceable Available) | **₹96.91 Cr** | Urban civic tech solutions. |
-| **SOM** (Serviceable Obtainable) | **₹13.39 Cr** | Realistic initial market capture. |
+### 📊 Market Analysis (India)
+* **₹140 Cr** - **TAM (Total Addressable Market):** The entire Smart City technology sector.
+* **₹96.91 Cr** - **SAM (Serviceable Available Market):** Urban civic tech solutions.
+* **₹13.39 Cr** - **SOM (Serviceable Obtainable Market):** Our realistic initial market capture.
 
-### Revenue Streams
-1.  **Government Subscription:** Tiered monthly fees for municipal access to the AI Dashboard.
-2.  **Contractor Service Fees:** A small commission on each job facilitated/awarded through the platform.
+### 💸 Revenue Model
+1.  **Government Subscription:** Tiered monthly fees for municipal access to the AI Dashboard and Analytics.
+2.  **Contractor Service Fees:** A small commission on each job facilitated or awarded through the platform.
 
-### Scalability Strategy
-* **Cloud Hosting:** Pay-as-you-go models (AWS/Google Cloud) to handle data surges.
-* **Community Marketing:** Partnering with Resident Welfare Associations (RWAs) to drive adoption.
+### 📉 Cost Structure
+* **Fixed:** Platform development, AI model training.
+* **Variable:** Cloud hosting (pay-as-you-go), Marketing & Partnerships.
 
 ---
+## 📈 Why This Matters (Research Data)
+Based on our primary research survey of **2300+ data points** and analysis from global reports:
 
-## 🔬 Research & Impact
+> 📂 **[View Full Survey Data Spreadsheet](https://docs.google.com/spreadsheets/d/1dCCleNU2lp0RIOz0-KM4JaEw3maJnhjTvF5sVgw2CgE/edit?usp=drivesdk)**
 
-Our project is backed by rigorous primary research involving over **2300+** data points and user surveys.
-
-> 📂 **[View Full Research Data Spreadsheet](https://docs.google.com/spreadsheets/d/1dCCleNU2lp0RIOz0-KM4JaEw3maJnhjTvF5sVgw2CgE/edit?usp=drivesdk)**
-
-### Key Survey Findings
 * 🔴 **92%** of respondents prefer reporting issues via a mobile app over visiting an office.
+* 🔴 **65%** are dissatisfied with the speed and feedback of current grievance redressal systems.
+* 🔴 **85%** want real-time status updates on their complaints.
 * 🔴 **60%** of civic issues currently go unreported due to complex procedures.
-* 🔴 **85%** of citizens are unsure which department handles specific issues (solved by our AI routing).
+* 🟢 **Impact:** By automating these reports, we directly improve community safety and cleanliness.
 
-### Social Impact
-* **Environmental:** Directly promotes a greener city through the "Plants for Tokens" reward system.
-* **Trust:** Rebuilds trust between citizens and government through complete transparency.
-* **Efficiency:** Reduces manual work for government staff, allowing them to focus on resolution.
+**📚 References & Data Sources:**
+*Primary Survey, Praja.org, pafindia.org, prsindia.org, Deloitte, Statista, IJCRT.org, and McKinsey.*
+
+> *"Empowering citizens to hold government accountable through transparency."*
+---
+
+## 🌟 Key Impacts
+
+| **Social** | **Environmental** | **Economic** |
+| :--- | :--- | :--- |
+| Rebuilds trust through transparency and accountability. | Promotes a greener city via the "Plants for Tokens" reward system. | Supports local contractors by connecting them to government projects. |
 
 ---
 
 ## 📂 Repository Structure
 
-```text
-├── 📱 application/         # Mobile Application Source Code (Dart/Flutter)
-├── 🌐 website/             # Web Dashboard Source Code (HTML/CSS/JS)
-├── 📄 docs/                # SIH Presentation PDF & Research Data
-└── 📝 README.md            # Project Documentation
+```bash
+├── 📱 application/         # Mobile Application (Dart/Flutter)
+├── 🌐 website/             # Admin Dashboard (HTML/JS)
+├── 📄 docs/                # Research Data & SIH Presentation
+└── 📝 README.md            # You are here!
+
+```
+---
+
+## 📺 See It In Action
+
+<div align="center">
+  <a href="https://www.youtube.com/embed/RZbovuI7gFg?si=RxaPz6uDyhgm6j30">
+    <img src="https://img.youtube.com/vi/RZbovuI7gFg/0.jpg" width="80%" alt="Watch the Demo">
+  </a>
+  <p><i>👆 Click to watch the full project demonstration</i></p>
+</div>
