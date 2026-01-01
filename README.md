@@ -160,16 +160,4 @@ Based on our primary research survey of **2300+ data points** and analysis from 
 ├── 📄 docs/                # Research Data & SIH Presentation
 └── 📝 README.md            # You are here!
 
-```
----
-
-## 📺 See It In Action
-
-<div align="center">
-  <a href="https://www.youtube.com/embed/RZbovuI7gFg?si=RxaPz6uDyhgm6j30">
-    <img src="https://img.youtube.com/vi/RZbovuI7gFg/0.jpg" width="80%" alt="Watch the Demo">
-  </a>
-  <p><i>👆 Click to watch the full project demonstration</i></p>
-</div>
-
 
