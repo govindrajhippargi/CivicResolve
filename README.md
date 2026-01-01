@@ -47,25 +47,30 @@
     <td align="center">
       <img src="Images/1.jpg" width="250" alt="Login & Splash Screen" />
       <br />
-      <b>Splash & Login</b>
+      <b>Dashboard</b>
     </td>
     <td align="center">
-      <img src="images/2.jpg" width="250" alt="Reporting Interface" />
+      <img src="Images/2.jpg" width="250" alt="Reporting Interface" />
       <br />
       <b>Issue Reporting</b>
     </td>
     <td align="center">
-      <img src="images/3.jpg" width="250" alt="User Profile" />
+      <img src="Images/3.jpg" width="250" alt="User Profile" />
       <br />
-      <b>Profile & Rewards</b>
+      <b>Brief Report</b>
+    </td>
+    <td align="center">
+      <img src="Images/5.jpg" width="250" alt="User Profile" />
+      <br />
+      <b>Report Confirmation </b>
     </td>
   </tr>
 </table>
 
 ### 💻 Municipal Dashboard (Web)
 <div align="center">
-  <img src="images/website.jpg" width="90%" alt="Admin Dashboard Overview" />
-  <p><i>Real-time map view and ticket management for municipal staff.</i></p>
+  <img src="Images/9.png" width="90%" alt="Admin Dashboard Overview" />
+  <p><i>Real-time report view and ticket management for municipal staff.</i></p>
 </div>
 
 ---
@@ -167,3 +172,6 @@ Based on our primary research survey of **2300+ data points** and analysis from 
   </a>
   <p><i>👆 Click to watch the full project demonstration</i></p>
 </div>
+
+
+<div align="center"> <p><b>Developed with 💚 by Team Barre Chords</b></p> <p><i>Smart India Hackathon 2025</i></p> </div>
