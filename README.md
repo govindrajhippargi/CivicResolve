@@ -1,6 +1,5 @@
 <div align="center">
 
-# 🚀 BARRE CHORDS
 ### Crowdsourcing Civic Issue Reporting & Resolution System
 
 [![SIH 2025](https://img.shields.io/badge/SIH-2025-FF6B00?style=for-the-badge&logo=india&logoColor=white)](https://www.sih.gov.in/)
