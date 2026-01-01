@@ -21,22 +21,22 @@
 
 <br /><br />
 
-[cite_start]**Problem Statement ID:** 25031 [cite: 3] | [cite_start]**Team:** Barre Chords [cite: 9]
+**Problem Statement ID:** 25031 | **Team:** Barre Chords
 
 </div>
 
 ---
 
 ## 💡 The Big Idea
-[cite_start]**60% of civic issues go unreported** simply because the process is too hard[cite: 168]. 
+**60% of civic issues go unreported** simply because the process is too hard. 
 
-**Barre Chords** solves this by creating a unified ecosystem where **Citizens**, **Municipal Staff**, and **Contractors** work together. [cite_start]We use **Gemini AI** to automatically sort complaints and **Gamification** (Tokens = Free Plants) to encourage people to keep their city clean[cite: 32, 41].
+**Barre Chords** solves this by creating a unified ecosystem where **Citizens**, **Municipal Staff**, and **Contractors** work together. We use **Gemini AI** to automatically sort complaints and **Gamification** (Tokens = Free Plants) to encourage people to keep their city clean.
 
 ### 🔄 How It Works (The Workflow)
 
 | **Step 1: SNAP 📸** | **Step 2: AI SORT 🤖** | **Step 3: RESOLVE 🚜** | **Step 4: REWARD 🌱** |
 | :--- | :--- | :--- | :--- |
-| **Citizen** takes a photo of a pothole or garbage. [cite_start]GPS is auto-tagged[cite: 24]. | [cite_start]**Gemini AI** analyzes the image, assigns priority (High/Med/Low), and routes it to the right department[cite: 32]. | **Contractors** bid on the job via the app. [cite_start]Municipal staff approve and track progress[cite: 45]. | [cite_start]**Citizen** gets notified of the fix and earns tokens redeemable for free plants[cite: 41]. |
+| **Citizen** takes a photo of a pothole or garbage. GPS is auto-tagged. | **Gemini AI** analyzes the image, assigns priority (High/Med/Low), and routes it to the right department. | **Contractors** bid on the job via the app. Municipal staff approve and track progress. | **Citizen** gets notified of the fix and earns tokens redeemable for free plants. |
 
 ---
 
@@ -53,26 +53,26 @@
 
 ## ⚡ Tech Stack & Architecture
 
-[cite_start]We built a scalable, cloud-native solution designed for the **₹140 Cr Smart City Market**[cite: 107].
+We built a scalable, cloud-native solution designed for the **₹140 Cr Smart City Market**.
 
 | Component | Tech | Purpose |
 | :--- | :--- | :--- |
-| **📱 App** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | [cite_start]Cross-platform mobile app for Citizens & Contractors[cite: 74]. |
-| **💻 Web** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | [cite_start]Admin Dashboard for Municipal Authorities[cite: 80]. |
-| **🧠 AI** | ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white) | [cite_start]Intelligent routing & priority analysis[cite: 98]. |
-| **🗄️ Backend** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | [cite_start]PostgreSQL Database & Auth[cite: 80]. |
-| **☁️ Deploy** | ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) | [cite_start]High-speed content delivery[cite: 82]. |
+| **📱 App** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | Cross-platform mobile app for Citizens & Contractors. |
+| **💻 Web** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Admin Dashboard for Municipal Authorities. |
+| **🧠 AI** | ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white) | Intelligent routing & priority analysis. |
+| **🗄️ Backend** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | PostgreSQL Database & Auth. |
+| **☁️ Deploy** | ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) | High-speed content delivery. |
 
 ---
 
 ## 📈 Why This Matters (The Data)
 Based on our primary research survey of citizens:
 
-* [cite_start]🔴 **92%** prefer app-based reporting over visiting offices[cite: 168].
-* [cite_start]🔴 **60%** of issues are currently ignored due to complex procedures[cite: 168].
-* [cite_start]🟢 **Barre Chords** taps into a **₹140 Cr** Total Addressable Market[cite: 107].
+* 🔴 **92%** prefer app-based reporting over visiting offices.
+* 🔴 **60%** of issues are currently ignored due to complex procedures.
+* 🟢 **Barre Chords** taps into a **₹140 Cr** Total Addressable Market.
 
-> [cite_start]*"Empowering citizens to hold government accountable through transparency."* [cite: 151]
+> *"Empowering citizens to hold government accountable through transparency."*
 
 ---
 
