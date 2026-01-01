@@ -20,7 +20,7 @@
 
 <br /><br />
 
-**Problem Statement ID:** 25031 | **Team:** Barre Chords | **Domain:** Smart Automation
+**Problem Statement ID:** 25031  | **Domain:** Smart Automation
 
 </div>
 
