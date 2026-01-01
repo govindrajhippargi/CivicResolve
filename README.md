@@ -39,6 +39,36 @@
 | **Citizen** takes a photo of a pothole or garbage. GPS is auto-tagged. | **Gemini AI** analyzes the image, assigns priority (High/Med/Low), and routes it to the right department. | **Contractors** bid on the job via the app. Municipal staff approve and track progress. | **Citizen** gets notified of the fix and earns tokens redeemable for free plants. |
 
 ---
+## 📸 Application Previews
+
+### 📱 Mobile App (Citizen & Contractor)
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="images/1.jpg" width="250" alt="Login & Splash Screen" />
+      <br />
+      <b>Splash & Login</b>
+    </td>
+    <td align="center">
+      <img src="images/2.jpg" width="250" alt="Reporting Interface" />
+      <br />
+      <b>Issue Reporting</b>
+    </td>
+    <td align="center">
+      <img src="images/3.jpg" width="250" alt="User Profile" />
+      <br />
+      <b>Profile & Rewards</b>
+    </td>
+  </tr>
+</table>
+
+### 💻 Municipal Dashboard (Web)
+<div align="center">
+  <img src="images/website.jpg" width="90%" alt="Admin Dashboard Overview" />
+  <p><i>Real-time map view and ticket management for municipal staff.</i></p>
+</div>
+
+---
 
 ## 📱 The Ecosystem: 3-Pillar Approach
 
