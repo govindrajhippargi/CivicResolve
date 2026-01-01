@@ -173,4 +173,3 @@ Based on our primary research survey of **2300+ data points** and analysis from 
 </div>
 
 ---
-<div align="center"> <p><b>Developed with 💚 by Team Barre Chords</b></p> <p><i>Smart India Hackathon 2025</i></p> </div>
