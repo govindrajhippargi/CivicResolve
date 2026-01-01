@@ -45,7 +45,7 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="images/1.jpg" width="250" alt="Login & Splash Screen" />
+      <img src="Images/1.jpg" width="250" alt="Login & Splash Screen" />
       <br />
       <b>Splash & Login</b>
     </td>
