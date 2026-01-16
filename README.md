@@ -11,7 +11,7 @@
 <a href="https://barre.pages.dev/">
   <img src="https://img.shields.io/badge/🌐_Visit_Live_Website-000?style=for-the-badge&logo=cloudflare&logoColor=white" height="35" />
 </a>
-<a href="https://youtu.be/RZbovuI7gFg">
+<a href="https://yt/RZbovuI7gFg">
   <img src="https://img.shields.io/badge/🎥_Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35" />
 </a>
 <a href="https://docs.google.com/spreadsheets/d/1dCCleNU2lp0RIOz0-KM4JaEw3maJnhjTvF5sVgw2CgE/edit?usp=drivesdk">
